@@ -1,0 +1,88 @@
+/*============================================================================
+	Responsive CSS START HERE
+==============================================================================*/
+
+
+@media only screen and (min-width: 1200px)
+{
+	.chart-flex .chart-img .Chart {position: relative; margin: 0 0 0 -65px;}
+
+}
+
+
+@media only screen and (max-width: 991px)
+{
+	.navbar-toggler {display: flex; flex-direction: column;}
+	
+	.navbar-toggler .navbar-toggler-icon {height: 2px; background: #52bd93; margin: 0 0 7px 0}
+
+}
+
+@media only screen and (max-width: 767px)
+{
+	.image-with-text h2 {padding: 0 20px;}
+	
+	.rate-discription ul p {text-align: center}
+	
+	.hourly-card {box-shadow: 0 0 2px 0 #71e8b2;}
+	
+	.banner-group .align-items-center {flex-direction: column-reverse; margin: 0;}
+	
+	.banner-group .col-md-6.col-12 {padding: 0;}
+	
+	.banner-group .banner-img {margin: 0 0 20px 0;}
+	
+	h2 {line-height: normal;  font-size: 35px;}
+	
+	.i-w-inner .row {flex-direction: column-reverse;}
+	
+	.i-w-inner .banner-img {margin: 0 0 20px 0;}
+	
+	.h-e-inner .col-md-4 {margin: 0 0 60px 0;}
+	
+	.contact-inner {background: #52bd93; padding: 40px;}
+	
+	.footer-inner {text-align: center;}
+	
+	.footer-logo {margin: 0 0 40px 0;}
+	
+	.slider-arrows {position: static; display: block; margin: 40px 0 0;}
+	
+	.card-text p, .card-text {text-align: center}
+	
+	.card-body img {width: 100%;}
+	
+	.banner-text {text-align: center;}
+	
+	.feature-count span {width: 70px; height: 70px; font-size: 30px;}
+	
+	.hooper-navigation {bottom: 0; position: absolute; left: 0; right: 0; margin: 0 auto; width: 100%;}
+	
+	.bg-colour-blue {padding: 30px 0 80px 0;}
+	
+	.hooper-navigation button.hooper-prev {left: 35%;}
+	
+	.hooper-navigation button.hooper-next {right: 35%;}
+	
+	.container {max-width: 100%;}
+	
+	.result .site-content h4 {text-align: center;}
+	
+	.chart-flex {flex-direction: column;}
+	
+	.chart-flex .chart-content, .chart-flex .chart-img {width: 100%;}
+	
+	.result .site-content .ProgressBar h4 {text-align: left;}
+	
+	
+ 
+}
+
+@media only screen and (max-width: 480px)
+{
+	.chart-c-c p {font-size: 14px;}
+	
+	.chart-c-part .chart-color {height: 30px;}
+	
+	.ProgressBar .progress {height: 20px;}
+}
